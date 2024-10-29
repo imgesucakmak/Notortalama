@@ -6,7 +6,7 @@ public class notOrt {
 		Scanner scanner=new Scanner(System.in);
 		int ogrenciSayisi=0;
 		
-		while(ogrenciSayisi<=0) {
+		while(ogrenciSayisi>=0) {
 			System.out.println("kac ogrenci not girecek?");
 			ogrenciSayisi=scanner.nextInt();
 			
